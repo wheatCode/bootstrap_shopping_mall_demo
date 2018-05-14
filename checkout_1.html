@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>結帳</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white p-0 d-flex justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img src="img/main_icon.jpg" alt="" srcset="" width="200px">
+        </a>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark table-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="index.html">首頁</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="man_T-shirt.html">男士專區</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="woman_T-shirt.html">女士專區</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link text-white" href="image_index.html">形象網站</a>
+                </li>
+            </ul>
+            <div class="mt-2">
+                <i class="fas fa-user fa-2x mr-2"></i>
+                <a class="text-white" href="checkout_1.html">
+                    <i class="fas fa-shopping-cart fa-2x mr-1"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center py-4 font-weight-bold">SINSTR 結帳</h1>
+            <div class="row">
+                <div class="col-md-3 badge table-primary text-white">
+                    <h4 class="font-weight-bold">1.輸入訂單資料</h4>
+                </div>
+                <div class="col-md-1 text-center">
+                    <i class="fas fa-angle-double-right fa-3x"></i>
+                </div>
+                <div class="col-md-3 badge table-secondary">
+                    <h4 class="font-weight-bold">2.金流付款</h4>
+                </div>
+                <div class="col-md-1 text-center">
+                    <i class="fas fa-angle-double-right fa-3x"></i>
+                </div>
+                <div class="col-md-3 badge table-secondary">
+                    <h4 class="font-weight-bold">3.完成</h4>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8">
+                    <div class="bg-light text-center py-2 px-5 my-5">
+                        <h3 class="font-weight-bold">訂購人資訊</h3>
+                    </div>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">
+                                    <h5 class="font-weight-bold">*姓名</h5>
+                                </label>
+                                <input type="text" class="form-control py-2" id="validationCustom01" placeholder="請輸入名字..." required>
+                                <div class="invalid-feedback font-weight-bold">
+                                    名字必填!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustomUsername">
+                                    <h5 class="font-weight-bold">*Email</h5>
+                                </label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend font-weight-bold">
+                                        <span class="input-group-text py-2" id="inputGroupPrepend">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder="請輸入Email..." aria-describedby="inputGroupPrepend"
+                                        required>
+                                    <div class="invalid-feedback font-weight-bold">
+                                        Email必填!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom03">
+                                    <h5 class="font-weight-bold">*國家</h5>
+                                </label>
+                                <input type="text" class="form-control py-2" id="validationCustom03" placeholder="請輸入國家..." required>
+                                <div class="invalid-feedback font-weight-bold">
+                                    國家必填!
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom04">
+                                    <h5 class="font-weight-bold">*城市</h5>
+                                </label>
+                                <input type="text" class="form-control py-2" id="validationCustom04" placeholder="請輸入城市..." required>
+                                <div class="invalid-feedback font-weight-bold">
+                                    城市必填!
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom05">
+                                    <h5 class="font-weight-bold">郵遞區號</h5>
+                                </label>
+                                <input type="text" class="form-control py-2" id="validationCustom05" placeholder="請輸入郵遞區號...">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col mb-3">
+                                <label for="validationCustom03">
+                                    <h5 class="font-weight-bold">*地址</h5>
+                                </label>
+                                <input type="text" class="form-control py-2" id="validationCustom03" placeholder="請輸入地址..." required>
+                                <div class="invalid-feedback">
+                                    地址必填!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right mt-3 mb-5">
+                            <button class="btn btn-outline-secondary btn-lg" type="submit">繼續選購</button>
+                            <button class="btn btn-primary btn-lg" type="submit"><a class="text-white" href="checkout_2.html">確認付款</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white table-dark pt-5 pb-2">
+            <div class="container py-2">
+                John Lewis plc: Registered office 171 Victoria Street, London SW1E 5NN.
+                <br> Registered in England. Company registration number233462. VAT number GB232457280.
+                <br>
+                <br> Copyright © John Lewis Partnership 2001 - 2018
+            </div>
+        </footer>
+
+    <script src="all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
